@@ -11,7 +11,7 @@ function newItem() {
         alert('You must write smth!');
     } else {
         $('#list').append(li);
-        $('# input').val();
+        $('#input').val();
     }
 // 2. crosing out:
     function crossOut() {
