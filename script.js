@@ -7,11 +7,11 @@ function newItem() {
     let inputValue = $('#input').val();
     li.append(inputValue);
 
-    if (inputValue === ' ') {
+    if (inputValue === '') {
         alert('You must write smth!');
     } else {
         $('#list').append(li);
-        $('# input').val();
+        $('#input').val();
     }
 // 2. crosing out:
     function crossOut() {
