@@ -1,5 +1,4 @@
 // 1. Adding a new item to the list of items:
-
 function newItem() {
     let list = $('#list');
     let li = $('<li></li>');
